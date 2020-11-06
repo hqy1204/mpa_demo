@@ -1,0 +1,290 @@
+.g-appliction, .el-dialog{
+
+    .el-dropdown {
+        outline: none;
+    }
+
+    .el-tabs__item {
+        background-color: #fff;
+    }
+
+    .el-tabs--card>.el-tabs__header .el-tabs__nav {
+        border: none;
+        border-right: 1px solid #ecf0f0;
+        border-radius: 0;
+    }
+
+    .el-tabs--card>.el-tabs__header {
+        margin: 0;
+        border-bottom: 1px solid #ecf0f0;
+        height: 39px;
+    }
+
+    .el-tabs--card>.el-tabs__header .el-tabs__item {
+        border-bottom: 1px solid #ecf0f0;
+        border-left: 1px solid #ecf0f0;
+    }
+
+    .el-tabs__nav-scroll {
+        background-color: #F9FAFA;
+        height: 39px;
+        overflow: initial;
+    }
+
+    .el-tabs__content {
+        position: absolute;
+        top: 50px;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+
+    .el-input__inner {
+        font-size: 13px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #EDEFF2;
+        border-radius: 0;
+        &:focus {
+            border-color: #3071f2;
+        }
+    }
+
+    .el-input-group__append{
+        border: 2px solid #EDEFF2;
+        border-radius: 0;
+        border-left: 0;
+        .el-button{
+            padding: 11px 20px;
+        }
+    }
+
+    .el-textarea__inner {
+        font-size: 13px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #EDEFF2;
+        border-radius: 0;
+        padding: 10px;
+        &:focus {
+            border-color: #3071f2;
+        }
+    }
+
+    .el-date-editor.el-input {
+        width: 100%;
+    }
+
+    .el-button {
+        width: 100%;
+    }
+
+    .el-select {
+        width: 100%;
+    }
+
+    .el-checkbox {
+        line-height: 40px;
+    }
+
+    .el-radio {
+        line-height: 40px;
+    }
+
+    .el-input--mini .el-input__inner {
+        height: 22px;
+        line-height: 22px;
+    }
+
+    .el-pagination--small .el-pagination__editor.el-input .el-input__inner {
+        line-height: 22px;
+    }
+
+    .el-input-group__append,
+    .el-input-group__prepend {
+        padding: 0;
+    }
+
+    .el-input-group__append .el-button,
+    .el-input-group__append .el-select,
+    .el-input-group__prepend .el-button,
+    .el-input-group__prepend .el-select {
+        margin: 0;
+    }
+
+    .el-tabs__nav-next,
+    .el-tabs__nav-prev {
+        line-height: 39px;
+        z-index: 999;
+        background-color: #fff;
+        width: 20px;
+
+        .el-icon-arrow-left,
+        .el-icon-arrow-right {
+            padding-left: 4px;
+        }
+    }
+
+    .el-form--label-top .el-form-item__label {
+        padding: 0;
+        line-height: 34px;
+        color: #2E3033;
+
+        &::before {
+            float: left;
+            color: #FF4C4C;
+            font-size: 21px;
+            font-weight: bold;
+            line-height: 42px;
+            height: 34px;
+        }
+    }
+
+    .el-scrollbar__bar.is-vertical {
+        top: 4px;
+        right: 4px;
+        bottom: 4px;
+    }
+}
+
+.el-picker-panel__icon-btn{
+    width: 12px;
+}
+
+.el-popover{
+    min-width: 80px !important;
+    padding: 10px 0;
+}
+
+.el-icon-more{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.el-dialog {
+    height: 70%;
+    margin: 0 !important;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .el-dialog__header{
+        padding: 8px 0;
+        text-align: center;
+        border-bottom: 1px solid #EDEFF2;
+        .el-dialog__title{
+            height: 15px;
+            line-height: 15px;
+            font-size: 13px;
+            color: #333;
+        }
+        .el-dialog__headerbtn{
+            height: 34px;
+            width: 38px;
+            top: 1px;
+            right: 0;
+            font-size: 14px;
+            padding: 0px 0px;
+            border-radius: 0 4px 0 0;
+            &:hover{
+                background-color: #EDEFF2;
+            }
+            .el-dialog__close{
+                color: #333;
+            }
+        }
+    }
+    .el-dialog__body {
+        padding: 0;
+        overflow: hidden;
+        padding: 10px 20px;
+        padding-bottom: 0;
+        .m-dialogBody{
+            position: absolute;
+            top: 50px;
+            bottom: 52px;
+            left: 5px;
+            right: 5px;
+            .m-formDialog{
+                padding: 0 15px;
+                .el-form-item__label{
+                    font-size: 13px;
+                    color: #8A8F99;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+    .el-dialog__footer{
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        right: 20px;
+        height: 52px;
+        text-align: center;
+        padding-top: 0;
+        button{
+            width: 92px;
+            height: 32px;
+            color: #2E3033;
+            background-color: #EDEFF2;
+            border-radius: 16px;
+            &+button{
+                background-color: #3071f2;
+                color: #fff;
+                margin-left: 14px;
+            }
+        }
+    }
+}
+
+.el-message-box{
+    .el-message-box__header{
+        padding: 8px 0;
+        text-align: center;
+        border-bottom: 1px solid #EDEFF2;
+        .el-message-box__title{
+            height: 15px;
+            line-height: 15px;
+            font-size: 13px;
+            color: #333;
+        }
+        .el-message-box__headerbtn{
+            height: 31px;
+            width: 36px;
+            top: 0;
+            right: 0;
+            font-size: 14px;
+            padding: 0px 0px;
+            border-radius: 0 4px 0 0;
+            &:hover{
+                background-color: #EDEFF2;
+            }
+            .el-message-box__close{
+                color: #333;
+            }
+        }
+    }
+    .el-message-box__btns{
+        .el-button{
+            width: 92px;
+            height: 32px;
+            border-radius: 16px;
+            border: none;
+            color: #2E3033;
+            background-color: #EDEFF2;
+            &:hover{
+                color: #fff;
+                background-color: #3071f2;
+            }
+            &+.el-button{
+                color: #fff;
+                background-color: #3071f2;
+                margin-left: 15px;
+            }
+        }
+    }
+}
